@@ -44,6 +44,10 @@ a{
   margin-top: 30px;
   
 }
+#container-btn a{
+  color: #ffffff;
+  font-weight: bold;
+}
 a:hover,#container-btn:hover {
   cursor: pointer;
   opacity: .7;
@@ -89,8 +93,8 @@ a:hover,#container-btn:hover {
 }
 
 /*---------------------------*/
-/*close時のメニュー          */
-/*---------------------------*/
+/*×ボタン時のメニュー       　*/
+/*-------------------------*/
 
 body.noscroll{
   overflow: hidden;
@@ -149,7 +153,7 @@ body.noscroll{
 }
 
 /*---------------------------*/
-/* ハンバーガーメニュー    */
+/* ハンバーガーメニュー        */
 /*---------------------------*/
 
 
@@ -195,8 +199,8 @@ top: 50%;
 }
 
 /*---------------------------*/
-/* ×ボタン                       */
-/*---------------------------*/
+/* ×ボタン                   */
+/*--------------------------*/
 .hum-wrapper.close .bar-top{
   transition: .3s;
   transform: translate(-47%,4px) rotate(30deg);
@@ -214,7 +218,7 @@ top: 50%;
 
 
 /*---------------------------*/
-/* fv                               */
+/* fv                        */
 /*---------------------------*/
 .kv-wrapper {
   position: relative;
@@ -251,7 +255,7 @@ h1 {
 
 
 /*---------------------------*/
-/* About                         */
+/* About                     */
 /*---------------------------*/
 .about-wrapper {
   padding-top: 120px;
@@ -276,7 +280,7 @@ h1 {
 
 
 /*---------------------------*/
-/* Flex                             */
+/* Flex                      */
 /*---------------------------*/
 .flex-wrapper {
   background-color: #F0F0F0;
@@ -307,7 +311,7 @@ h1 {
 
 
 /*---------------------------*/
-/* Topics                         */
+/* Topics                    */
 /*---------------------------*/
 .topics-wrapper {
   padding: 60px 150px 0 ;
@@ -335,13 +339,15 @@ h1 {
 }
 .topics-btn {
   margin-left: auto;
-  width: 160px;
+  width: 170px;
   display: block;
+  text-align: center;
 }
 
 
+
 /*---------------------------*/
-/* Contact                       */
+/* Contact                   */
 /*---------------------------*/
 .contact-container {
   background-color: #F0F0F0;
