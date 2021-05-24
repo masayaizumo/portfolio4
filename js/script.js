@@ -6,7 +6,7 @@ $(function(){
   var bgHeight = $('.kv-wrapper').outerHeight(); 
   
 
-  $(".header-menu").on('click',function(){
+  $(".hum-wrapper").on('click',function(){
     if( $(window).scrollTop() < imgHeight -50){
      
       $('.hum-wrapper').toggleClass('close'); 
